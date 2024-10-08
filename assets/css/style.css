@@ -76,27 +76,34 @@
   
   body.dark_theme {
   
-    --bg-primary: hsl(0, 0%, 12%);
-    --bg-secondary: hsl(0, 0%, 19%);
-    --color-primary: hsl(0, 0%, 100%);
-    --color-secondary: hsl(0, 0%, 62%);
-    --card-shadow: hsla(0, 0%, 0%, 0.4);
-    --input-bg: hsl(0, 0%, 16%);
+    
+      --bg-primary: hsl(240, 10%, 8%);
+      --bg-secondary: hsl(240, 10%, 15%);
+      --color-primary: hsl(60, 100%, 100%);
+      --color-secondary: hsl(60, 28%, 82%);
+      --card-shadow: hsla(0, 0%, 0%, 0.6);
+      --input-bg: hsl(240, 10%, 10%);
+      --shadow-1: 10px 10px 40px var(--card-shadow);
+      --shadow-2: 20px 20px 60px var(--card-shadow);
+      --gradient-1: linear-gradient(to bottom, var(--bg-primary), var(--bg-secondary));
+      --gradient-2: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+    }
   
-    --shadow-1: 10px 10px 40px var(--card-shadow);
   
-  }
   
   body.light_theme {
   
-    --bg-primary: hsl(0, 0%, 90%);
-    --bg-secondary: hsl(0, 0%, 100%);
-    --color-primary: hsl(0, 0%, 12%);
-    --color-secondary: hsl(0, 0%, 37%);
-    --card-shadow: hsla(0, 0%, 0%, 0.1);
-    --input-bg: hsl(0, 0%, 93%);
-  
+    --bg-primary: hsl(240, 10%, 90%);
+    --bg-secondary: hsl(240, 10%, 100%);
+    --color-primary: hsl(240, 10%, 12%);
+    --color-secondary: hsl(240, 7%, 15%);
+    --card-shadow: hsla(0, 0%, 0%, 0.2);
+    --input-bg: hsl(240, 10%, 93%);
+    
     --shadow-1: 10px 10px 40px var(--card-shadow);
+    --shadow-2: 20px 20px 60px var(--card-shadow);
+    --gradient-1: linear-gradient(to bottom, var(--bg-primary), var(--bg-secondary));
+    --gradient-2: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
   
   }
   
